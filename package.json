@@ -1,0 +1,19 @@
+{
+  "name": "creativewriting",
+  "version": "1.0.0",
+  "description": "template-for-writing",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"index.html, base.css, documents"
+  },
+  "keywords": [
+    "creative",
+    "writing",
+    "blog",
+    "PDF",
+    "creativeWriting"
+  ],
+  "author": "Evaristo garcia",
+  "license": "ISC"
+}

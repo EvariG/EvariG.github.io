@@ -1,0 +1,16 @@
+body, html{
+    width:100%;
+    margin:0;
+    background-image: linear-gradient(to right, rgb(51, 102, 255), rgb(85, 136, 255), rgb(0, 0, 0));
+    background-color: rgb(91,91,91); /** for browsers tha do not support gradiants**/
+}
+/**do not forget about the "font-family" if you are choosing another font**/
+h1{
+    color:aliceblue;
+    font-family: "courier new", 'slab-serif';
+    font-size: "xxx-large";
+}
+.pageheader {
+    font-size: 1rem;
+    margin: 2rem 0;
+}

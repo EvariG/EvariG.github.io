@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title>SuperNova</title>
+   <link rel="stylesheet" type="text/css" href="base.css">
+   <link rel="PDF" href="documents">
+  <!--obtain .ico image for tab img, I obtained this alien from https://favicon.io/ -->
+   <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+  <!--to add unique font replace "couriernew" at the end with the name of a google font and add that same name to the base.css file-->
+   <style>
+       @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100&display=couriernew');
+   </style>
+   <script>
+      function goFullscreen(id) {
+          var element = document.getElementById(id);
+          if (element.mozRequestFullScreen) {
+            element.mozRequestFullScreen();
+          } else if (element.webkitRequestFullScreen) {
+            element.webkitRequestFullScreen();
+          }
+      }
+      </script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="utf-8">
+   </head>
+   <body >
+       <center>
+          <header class="pageheader">
+          <!--obtain .png image for img tag, I obtained this alien from https://favicon.io/ -->
+              <img src="apple-touch-icon.png"  width = '10%'>
+          </header>
+       <br>
+          <!--your name/title-->
+          <h1>Evaristo Garcia</h1>
+          <!--copy next line until hr tag to add additional PDFs-->
+       <br>
+       <br>
+          <!--change "pdf1" to "pdf2" or 3 or 4...etc-->
+      
+            <iframe id="pdf1" title= "DEJA VU" src="/Documents/Deja VU.pdf"  width="80%" height="800vh" position="absolute"></iframe>
+            <br>
+            <button onclick="goFullscreen('pdf1'); return false">Fullscreen</button>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br> 
+         <hr>
+         <!--paste below-->
+       
+       </center>
+   </body>
+</html>
